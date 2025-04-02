@@ -5,7 +5,7 @@ export function getBaseUrl() {
   if (href.includes("localhost")) {
     return "http://localhost:3000/";
   }
-  return `YOUR DEPLOYED URL`;
+  return 'https://webshop-2025-be-g8.vercel.app/';
 }
 
 export async function fetchProducts(endpoint = "api/products") {
